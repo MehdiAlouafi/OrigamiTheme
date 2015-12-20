@@ -94,6 +94,7 @@ nav ul li {
 	margin-right: 60px;
 	list-style: none;
 	z-index: 1;
+	position: relative;
 
 }
 
@@ -114,14 +115,15 @@ nav ul li a {
 
 
 .on-hover {
-	height: 110px;
-	background-color: rgb(243,243,241);
+	height: 150px;
+	background-image: url("../elements/bg.png");
 	width: 165px;
 	position: absolute;
-	left: 200px;
-	top: 205px;
+	left: -15px;
+	top: -18px;
 	display: none;
 	border-bottom: 1px solid rgba(96, 96, 96, 0.2);
+	z-index: -1;
 }
 
 
@@ -132,15 +134,10 @@ nav ul li a:hover {
 
 
 }
-
-#test:hover + .on-hover {
-   display: block;
-
+nav ul > li:hover .on-hover {
+  display: block;
 }
 
-.on-hover:hover + .on-hover {
-	display: block;
-}
 
 #sous-menu {
 	list-style: none;
