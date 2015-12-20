@@ -1,0 +1,180 @@
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 13px;
+	background-image : url('../elements/bg.png');
+	box-sizing:border-box;
+	vertical-align: top top;
+}
+
+h1, h2 {
+	font-family: "Terminal Dosis",sans-serif;
+
+}
+
+h1 {
+	font-size: 52px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.wrapper {
+	max-width: 994px;
+    height: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.page-title {
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-left: 25px;
+	color: #505050;
+	position: relative;
+}
+
+.page-title h1 {
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+.page-title p {
+	margin-top: 5px;
+	color: #A6A6A6;
+}
+
+.page-title span {
+	position: absolute;
+	right: 25px;
+	top: 70px;
+	text-align: center;
+	height: 22px;
+	width: 31px;
+	background-image: url('../elements/bg.png');
+	border-bottom: 1px solid rgba(96, 96, 96, 0.2);
+
+}
+
+.page-title img {
+
+	position: relative;
+	top: 5px;
+	
+}
+
+nav {
+	height: 59px;
+	width: 944px;
+	margin: 0 auto;
+	background-image: url('../elements/bg.png');
+	border-bottom: 1px solid rgba(96, 96, 96, 0.2);
+	border-top: 1px solid rgba(96, 96, 96, 0.2);
+	text-align: center;
+	margin-top: 25px;
+}
+
+nav ul {
+	padding: 5px;
+    line-height: 1.9;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 60px;
+	list-style: none;
+	z-index: 1;
+
+}
+
+#six {
+	margin-right: 0;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgba(166, 166, 166, 0.6);
+	z-index: 2;
+}
+
+#test {
+	padding: 20px;
+}
+
+
+.on-hover {
+	height: 99px;
+	background-color: rgb(243,243,241);
+	width: 165px;
+	position: absolute;
+	left: 200px;
+	top: 205px;
+	display: none;
+	border-bottom: 1px solid rgba(96, 96, 96, 0.2);
+}
+
+
+nav ul li a:hover {
+	color: rgba(166, 166, 166, 1);
+	cursor: pointer;
+
+
+
+}
+
+#test:hover + .on-hover {
+   display: block;
+}
+
+#sous-menu {
+	list-style: none;
+	text-align: center;
+
+}
+
+#sous-menu>li {
+	margin-right: 0;
+	display: block;
+	line-height: 2.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
